@@ -26,4 +26,4 @@ Este sistema implementa un pipeline para la extracción de entidades (Personas, 
 - [ ] Fase 3: Validación con datos de prueba formales.
 
 ---
-**Investigador:** jusegora
+**Investigador:** jusegora | Abogado & AI Solutions Architect | LegalTech & Análisis Forense de Datos

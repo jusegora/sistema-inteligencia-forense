@@ -1,29 +1,29 @@
-﻿# Sistema de Inteligencia Forense Predictiva
+﻿# Sistema de Inteligencia Forense Predictiva y Explicable
 
-Herramienta de análisis y modelado de redes criminales mediante Teoría de Grafos y Redes Neuronales (GNN).
+**Investigador:** jusegora  
+*Abogado Especialista en Derecho Procesal Penal y Criminalística*
 
-## Descripción
-Este sistema implementa un pipeline para la extracción de entidades (Personas, Cuentas, Empresas), la generación de un grafo de conocimiento y el entrenamiento de una Red Convolucional de Grafos (GCN) para la predicción de enlaces ocultos. El objetivo es identificar intermediarios clave y posibles conexiones no registradas en las bases de datos tradicionales.
+Herramienta avanzada para el análisis, modelado y generación de informes periciales sobre redes criminales, utilizando Teoría de Grafos y Redes Neuronales (GNN).
 
-## Estructura del Proyecto
-- `src/ingesta.py`: Generación del grafo heterogéneo, cálculo de métricas de centralidad (Betweenness) y exportación de la matriz de adyacencia.
-- `src/modelo_gnn.py`: Implementación de la arquitectura GCN utilizando PyTorch Geometric para el entrenamiento en la predicción de vínculos.
+## Arquitectura del Proyecto
+Este sistema fue diseñado para superar las limitaciones de los softwares de análisis de enlaces tradicionales (estáticos y secuenciales), implementando un enfoque de inteligencia predictiva.
+
+- **`src/ingesta.py`**: Genera un Grafo de Conocimiento Heterogéneo (Personas, Cuentas, Empresas) y calcula métricas topológicas como la centralidad de intermediación (Betweenness).
+- **`src/modelo_gnn.py`**: Implementación de una Red Convolucional de Grafos (GCN) mediante PyTorch Geometric para la predicción de enlaces ocultos no registrados en las bases de datos.
+- **`src/visualizacion.py`**: Motor de renderizado que genera grafos visuales ponderados por riesgo, facilitando la interpretación de estructuras criminales complejas.
+- **`src/reporte_forense.py`**: Módulo de automatización que consolida los hallazgos matemáticos en un informe técnico pericial, listo para ser presentado ante autoridades judiciales.
 
 ## Tecnologías
 - Python 3.11
-- PyTorch / PyTorch Geometric
-- NetworkX
-- Pandas
+- PyTorch / PyTorch Geometric (GNNs)
+- NetworkX (Graph Analytics)
+- Matplotlib
 
 ## Uso
-1. Instalar dependencias: `pip install -r requirements.txt`
-2. Generar datos y métricas: `python src/ingesta.py`
-3. Entrenar el modelo predictivo: `python src/modelo_gnn.py`
-
-## Estado del Proyecto
-- [x] Fase 1: Ingesta de datos y modelo base GCN.
-- [ ] Fase 2: Implementación de mecanismos de explicabilidad (XAI).
-- [ ] Fase 3: Validación con datos de prueba formales.
+1. Generar la red y métricas: `python src/ingesta.py`
+2. Entrenar el modelo GCN: `python src/modelo_gnn.py`
+3. Visualizar el grafo: `python src/visualizacion.py`
+4. Generar el informe pericial: `python src/reporte_forense.py`
 
 ---
-**Investigador:** jusegora
+*Nota: Los datos utilizados en este repositorio son sintéticos y han sido generados con fines de validación metodológica.*

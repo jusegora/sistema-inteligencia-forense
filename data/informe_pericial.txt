@@ -1,0 +1,18 @@
+==================================================
+INFORME TECNICO DE ANALISIS DE REDES CRIMINALES
+==================================================
+Total de entidades analizadas: 350
+Total de relaciones identificadas: 954
+--------------------------------------------------
+1. IDENTIFICACION DE NODOS CRITICOS (INTERMEDIARIOS)
+Los siguientes nodos presentan los indices mas altos de intermediacion, indicando un rol de control o paso obligado en la red:
+   [1]. Entidad: P_10 | Tipo: Persona | Indice de Intermediacion: 0.0460
+   [2]. Entidad: P_37 | Tipo: Persona | Indice de Intermediacion: 0.0382
+   [3]. Entidad: P_148 | Tipo: Persona | Indice de Intermediacion: 0.0373
+   [4]. Entidad: P_52 | Tipo: Persona | Indice de Intermediacion: 0.0372
+   [5]. Entidad: P_155 | Tipo: Persona | Indice de Intermediacion: 0.0357
+--------------------------------------------------
+2. CONCLUSIONES PRELIMINARES
+El nodo 'P_10' actua como el principal eje articulador de la red. La interrupcion de sus vinculos o el rastreo de sus transacciones representa la linea de investigacion con mayor probabilidad de exito para desarticular la estructura.
+==================================================
+Fin del informe. Documento generado para uso de inteligencia.
